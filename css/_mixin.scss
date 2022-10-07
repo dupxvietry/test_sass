@@ -1,0 +1,26 @@
+@mixin button{
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  background-color: #000;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 999px;
+}
+%button01{
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  background-color: red;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 999px;
+}

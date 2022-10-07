@@ -1,0 +1,43 @@
+@import 'mixin';
+$fontDefault: 40px;
+$border: false;
+$list_color : red, blue, yellow, orange;
+h1{
+  font-size: $fontDefault;
+}
+
+@mixin button_custom($back_color, $color, $border){
+  border-radius: 0;
+  background: $back_color;
+  color: $color;
+  @if ($border){
+    border: $border+px solid yellow;
+  }
+}
+
+@each $color in $list_color {
+  .icon-#{$color}{
+    background: $color;
+  }
+}
+
+.box_test{
+  .btn a{
+    @include button();
+  }
+  .btn01 a{
+    @extend %button01;
+  }
+  .btn02 a{
+    @extend %button01;
+  }
+  .btn03 a{
+    @include button();
+    @include button_custom(blue, #fff, 5);
+  }
+  .icon{
+    width: 100px;
+    height: 10px;
+  }
+}
+

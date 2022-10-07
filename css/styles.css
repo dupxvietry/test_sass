@@ -1,0 +1,68 @@
+.box_test .btn02 a, .box_test .btn01 a {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  background-color: red;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.icon-red {
+  background: red;
+}
+
+.icon-blue {
+  background: blue;
+}
+
+.icon-yellow {
+  background: yellow;
+}
+
+.icon-orange {
+  background: orange;
+}
+
+.box_test .btn a {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  background-color: #000;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 999px;
+}
+.box_test .btn03 a {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  background-color: #000;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 999px;
+  border-radius: 0;
+  background: blue;
+  color: #fff;
+  border: 5px solid yellow;
+}
+.box_test .icon {
+  width: 100px;
+  height: 10px;
+}/*# sourceMappingURL=styles.css.map */
