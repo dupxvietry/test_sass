@@ -65,4 +65,8 @@ h1 {
 .box_test .icon {
   width: 100px;
   height: 10px;
+}
+
+body {
+  background-color: #121312;
 }/*# sourceMappingURL=styles.css.map */
